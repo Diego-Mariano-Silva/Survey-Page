@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#main {
+  background-image: url(https://image.cnbcfm.com/api/v1/image/105874696-1556279627825gettyimages-947895256.jpeg?v=1571852572);
+
+  background-position:100% 40%;
+  height: 100vh;
+  background-repeat: repeat-xt;
+  background-size:  auto auto;
+  margin: auto;
+  color: white;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 4px black;
+  background-image: linear-gradient(deg, #3a3d40 0%, #181719 100%);
+}
+#box {
+  background-color: rgb(248,248,248,);
+  border-radius:20px;
+  padding: 10px 10px;
+}
+#title {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 8vh;
+  font-size:2rem;
+  background-color: rgb(10,100,200,0.55);
+  font-family: 'Open Sans', sans serif;
+  weight: 700;
+  color: rgb(225,255,248);
+  border-bottom: 2px solid white;
+}
+#description {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:6vh;
+  font-family: 'Open Sans', sans serif;
+  weight: 700;
+  font-size: 1.5rem;
+  background-color: rgb(10,100,200,0.55); 
+  border-bottom: 2px solid white;
+}
+#content-div {
+  line-height: 2rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 86vh;
+  background-color: rgb(10,100,200,0.55);
+}
+#dropdown{
+  color: gray;
+}
+#text-area{
+  margin-top: 0.5rem;
+  width:60vw;
+  height: auto;
+  color: gray;
+  text-align: center;
+  font-size: 1.2rem;
+}
+#submit{
+  padding: 6px 16px;
+}
+hr {
+  border-top: none;
+}
+@media (max-width: 320px){
+  *{
+    font-size: 1rem;
+  }
+  #title {
+    font-size: 1.6rem;
+  }
+  #description {
+    font-size: 1rem;
+  }
+}

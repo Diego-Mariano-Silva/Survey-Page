@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Survey Form Santa Monica Collage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <main id="main">
+    <h1 id="title">Santa Monica Collage</h1>
+    <p id="description">Complete this survey to continue</p>
+      <div id="content-div">
+        <div id="box">
+        <form id="survey-form" action="https://www.freecatphotoapp.com/submit-cat-photo">
+          <label for="name" id="name-label">Name:</label>
+            <input id="name" name="name" type="text" placeholder="Name" required><br>
+          <label for="email" id="email-label">Email:</label>
+            <input id="email" type="email" name="Email" placeholder="Email" required><br>
+          <label for="Number" id="number-label">Phone-number:</label>
+           <input id="number" type="number" placeholder="Numero de telefono" max="9999999999" min="0" required><br>
+        <hr>
+        <label for="year">Año</label>
+          <select id="dropdown" name="year">
+            <option value="1">1er Año</option>
+            <option value="2">2do Año</option>
+            <option value="3">3er Año</option>
+          </select>
+        <hr>
+        <label>
+          <input value="man" type="radio" name="man-woman">Man
+          <input value="woman" type="radio" name="man-woman">Woman
+          </label>
+        <hr>
+        <p>What aspect of the School would you like to see improved?</p>
+        <label for="administration">
+          <input id="administration" value="administration" type="checkbox" name="aspects">Administration
+        </label>
+        <br>
+        <label for="education-quality">
+          <input id="education-quality" value="education-quality" type="checkbox" name="aspects">Tutoring
+        </label>
+        <br>
+        <label for="cafeteria-food">
+          <input id="cafeteria-food" value="cafeteria-food" type="checkbox" name="aspects">Cafeteria food
+        </label>
+        <hr>
+        <label for="text-area">
+          <textarea id="text-area" name="text-area" rows="6" cols="60"> Do you want to add anything else?</textarea>
+          <br>
+          <input  id="submit" type="submit" value="Submit">
+        </label>
+      </form>
+    </div>
+  </div>
+   
+
+
+
